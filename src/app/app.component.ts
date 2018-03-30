@@ -4,8 +4,7 @@ import { ProductService } from './products/product.service';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss'],
-  providers:[ProductService]
+  styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
   title : string = 'Angular: Getting Started';
